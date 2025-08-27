@@ -1,10 +1,8 @@
 import os
 from dotenv import load_dotenv
 
-# Load environment variables from a .env file
-# The .env file should be in the parent directory of this script's directory.
-dotenv_path = os.path.join(os.path.dirname(__file__), '..', '.env')
-load_dotenv(dotenv_path=dotenv_path)
+# Load environment variables from the .env file in the project root.
+load_dotenv()
 
 # Twilio Configuration
 TWILIO_ACCOUNT_SID = os.getenv("TWILIO_ACCOUNT_SID")

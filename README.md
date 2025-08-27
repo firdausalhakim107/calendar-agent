@@ -33,7 +33,7 @@ To use this agent, you need to enable the Google Calendar API and get credential
 2.  Create a new project.
 3.  Enable the "Google Calendar API" for your project.
 4.  Create credentials for a "Desktop application".
-5.  Download the `credentials.json` file and place it inside the `calendar_agent` directory.
+5.  Download the `credentials.json` file and place it in the root directory of this project.
 
 When you first run the application, you will be prompted to authorize access to your Google Calendar. Follow the on-screen instructions to complete the authorization process. A `token.json` file will be created to store your access tokens for future use.
 
