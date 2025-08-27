@@ -1,0 +1,13 @@
+# Environment variables
+.env
+
+# Google API token
+token.json
+calendar_agent/token.json
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
